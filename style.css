@@ -1,0 +1,220 @@
+/* Created Using Easy HTML v1.4.5 */
+/* https://play.google.com/store/apps/details?id=ak.andro.easyhtml */
+
+html
+{
+  /*100=16rem default font-size*/
+  /*what if we want 10rem as default font-size*/
+  /* so we will divide the 10/16=0.625*100=62.5*/
+  font-size:62.5%;
+  }
+body
+{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  background:url("sample.jpg");
+  background-repeat: no-repeat; 
+		background-position: center; 
+		background-size: cover; 
+  }
+.header
+{
+height: 10rem; 
+		width: 100%;
+		background-repeat: no-repeat; 
+		background-position: center; 
+		background-size: cover; 
+		} 
+.navbar
+{
+  text-align:center;
+  padding:2rem;
+  }
+.navbar a
+{
+color:grey;
+font-size:2rem;
+font-family:sans-serif;
+  margin-right:3rem;
+  border:0.2rem solid transparent;
+  padding:2rem;
+}
+.navbar a:hover
+{
+background:green;
+  border:0.2rem;
+}
+.head-content
+{ 
+  text-align:center;
+  }
+  .head-content img
+{
+  border-radius:50%;
+  border:0.2rem solid #fff;
+  margin-top:2rem;
+  }
+  .head-content img:hover
+{ border:0.2rem solid #000;
+  }
+  .name
+{
+  cursor:pointer;
+  font-size:5rem;
+  color:blue;
+  font-family:fantasy;
+  text-align:center;
+ }
+.desc
+{
+  cursor:default;
+  font-size:3rem;
+  color:#50555b;
+  font-family:cursive;
+  text-align:center;
+  }
+.about-section h2
+{
+  text-align:center;
+  font-size:3rem;
+  font-family: serif;
+  text-decoration:underline;
+  }
+.about-section p
+{
+  font-size:3rem;
+  font-family:cursive;
+  width:100rem;
+  text-align:center;
+  margin:0 auto;
+  border:0.2rem solid grey;
+  padding:1.5rem;
+  }
+.skills-section
+{
+  width:100%;
+  height:100rem;
+  text-align:center;
+  }
+.skills-section h2
+{
+  text-decoration:underline;
+  font-size:4rem;
+  font-family:sans-serif;
+  padding:1rem;
+  }
+.skills-section img
+{
+  height:30rem;
+  width:30rem;
+  border:0.2rem solid transparent;
+  }
+.contact-section
+{
+  height:60vh;
+  text-align:center;
+  }
+.contact-section span
+{ 
+  font-size:3rem;
+  font-weight:bold;
+  text-decoration:underline;
+  }
+inputs
+{
+  display:black;
+  margin:0 auto;
+  margin-bottom:1rem;
+  margin-top:1rem;
+  border-radius:1rem;
+  border:0;
+  background:#50555b;
+  color:#fff;
+  }
+textarea
+{
+  border:;
+ border-radius:10px;
+  font-size:2rem;
+  height:10rem;
+  width:10rem;
+  color:#fff;
+  text-align:center;
+  }
+.inp-name
+{
+  height:5rem;
+    width:40rem;
+  }
+
+.inp-mail
+{
+  height:5rem;
+    width:40rem;
+  }
+.inp-msg
+{
+  height:5rem;
+    width:40rem;
+  }
+.input [type=text]
+{
+  text-align:center;
+  font-size:2rem;
+  }
+.inp-btn
+{
+  padding:1rem;
+  background:#4b8cfb;
+  font-size:2rem;
+  }
+.inp-btn:hover
+{
+  background:#000;
+  transition:0.3s;
+  }
+.about-section p
+{
+  width:98%;
+  padding:0;
+  }
+.skills-section img
+{
+  height:11rem;
+    width:11rem;
+  display:block;
+  margin:0 auto;
+  }
+.inp-name
+{
+  width:95%;
+  }
+inp-mail
+{
+  width:95%;
+  }
+inp-msg
+{
+  width:95%;
+  }
+inp-btn
+{
+  width:95%;
+  }
+/* header respinsive code*/
+  @media(max-width:998px){
+    html{
+      font-size:55%;
+      }
+    }
+  @media(max-width:768px){
+    html{
+      font-size:45%;
+      }
+    }
+  @media(max-width:480px){
+    html{
+      font-size:30%;
+      }
+    }
